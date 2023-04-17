@@ -1,0 +1,112 @@
+{
+      "name": "SpamBot - RiZoeL",
+      "description": "A telethon Based Span Bots With Many Cmds Fast And Stable",
+      "logo": "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg",
+      "keywords": [
+        "telegram",
+        "Telethon",
+        "telegram-bot",
+        "RiZoeLXSpam",
+        "SpamBots"
+      ],   
+  "repository": "https://github.com/RiZoeLX/SpamX",
+  "website": "https://github.com/RiZoeLX",
+  "success_url": "https://t.me/RiZoeLX",
+  "env": {
+       "API_ID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_PIC": {
+        "description": "your alive pic or video",
+        "value": "",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN2": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN3": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN4": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN5": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN6": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN7": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN8": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN9": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN10": {
+        "description": "Bot token",
+        "value": "",
+        "required": true
+      },
+      "SUDO_USER": {
+            "description": "Sudo users id space by space or leave blank",
+            "value": "",
+            "required": false
+        },
+      "OWNER_ID": {
+            "description": "Sudo users id space by space",
+            "value": "",
+            "required": true
+        },
+      "HEROKU_API_KEY": {
+            "description": "Your Heroku api key to update your bot",
+            "value": "",
+            "required": false 
+        },
+       "HEROKU_APP_NAME": {
+            "description": "Your app name to Update your bot",
+          "value": "",
+          "required": false  
+        },
+      "CMD_HNDLR": {
+            "description": "Your Spam Userbot's Command handler",
+            "value": ".",
+            "required": false  
+        }
+    },
+    "buildpacks": [
+        {
+          "url": "heroku/python"
+        }
+    ]
+}
